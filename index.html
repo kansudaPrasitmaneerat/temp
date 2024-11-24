@@ -2,19 +2,23 @@
 <html>
   <head>
     <title>Temperature Monitor</title>
-    <link rel="stylesheet" href="style.css">    
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <div class="left-Container"></div>
-    <div class="index-Container">
-        <img src="woman holding something.png" alt="Woman" class="floatImgWomanIndex">
-    <div class="floatImgAll">
-        <img src="partly cloudy day.png" alt="cloudy">
-        <img src="storm.png" alt="storm">
-        <img src="moon with cloud.png" alt="moon">
-        <img src="snow.png" alt="snow">
+    <div class="left-container"></div>
+    <div class="login-container">
+        <h1>Sign In</h1>
+        <h2>Hello, Friend! I'm IOT</h2>
+        <img src="Thunder Storm Day.png" alt="Cloud" class="floatImgCloud">
+        <img src="woman holding something.png" alt="Woman" class="floatImgWoman">
+        <form action="home.html" method="POST">    
+          <input type="text" id="username" name="username" placeholder="Email" required>
+          <input type="password" id="password" name="password" placeholder="Password" required>
+          <button type="submit">Login Start!</button>
+      </form>
+        <p>Don't have an account? <a href="register.html">Sign Up</a></p>
     </div>
-        <h3>31°C</h3>
   </body>
 </html>
+
