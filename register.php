@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // ตรวจสอบการดำเนินการ
     if ($conn->query($sql) === TRUE) {
-        header("Location: login.html");
+        header("Location: index.html");
         exit();
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;

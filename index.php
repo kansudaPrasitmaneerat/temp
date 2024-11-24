@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // เปรียบเทียบรหัสผ่านที่กรอกกับรหัสผ่านในฐานข้อมูล
         if ($pass === $db_password) {
-            header("Location: index.html");
+            header("Location: home.html");
             exit();
         } else {
             echo "Incorrect password!";
